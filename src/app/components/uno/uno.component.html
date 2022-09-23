@@ -1,0 +1,11 @@
+<div>
+    <form [formGroup]="formulario" (submit)="onSubmit()">
+        <label for="">Name</label>
+        <input id="name" type="text" formControlName="name">
+        <label for="">Email</label>
+        <input id="email" type="text" formControlName="email">
+        <label for="">Password</label>
+        <input id="password" type="password" formControlName="password">
+        <button role="submit">Save</button>
+    </form>
+</div>
